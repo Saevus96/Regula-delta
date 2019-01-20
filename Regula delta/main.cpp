@@ -52,7 +52,7 @@ int main() {
 		double zk5 = 0.0;
 		double zk6 = 0.0;
 
-		//neutron 1		
+		//neuron 1		
 		for (int i = 0; i < 13; i++) {
 			sum = sum + taby1[i] * wx1[i];
 			zk = f(1 * sum);
@@ -61,7 +61,7 @@ int main() {
 			d++;
 		}
 
-		//neutron 2
+		//neuron 2
 		sum = 0;		
 		for (int i = 0; i < 13; i++)
 		{
@@ -71,7 +71,7 @@ int main() {
 			tabE[1] = (0.5)*((tabd[0][1] - zk2)*(tabd[0][1] - zk2));
 			d++;
 		}
-		//neutron 1
+		//neuron 1
 		sum = 0;
 		for (int i = 0; i < 13; i++)
 		{
@@ -82,7 +82,7 @@ int main() {
 			d++;
 		}
 
-		//neutron 2
+		//neuron 2
 		sum = 0;
 		for (int i = 0; i < 13; i++)
 		{
@@ -93,7 +93,7 @@ int main() {
 			d++;
 		}
 
-		//neutron 1
+		//neuron 1
 		sum = 0;
 		for (int i = 0; i < 13; i++)
 		{
@@ -104,7 +104,7 @@ int main() {
 			d++;
 		}
 
-		//neutron 2
+		//neuron 2
 		sum = 0;
 		for (int i = 0; i < 13; i++)
 		{
